@@ -2,9 +2,10 @@
 
 int main()
 {
-	cout << "Please enter your first name (followed by 'enter'): \n";
-	string first_name;
-	cin >> first_name;
-	cout << "Hello, " << first_name << "!\n";
+	cout << "Please enter your first name and age: \n";
+	string first_name = "???";
+	double age = 0;
+	cin >> first_name >> age;
+	cout << "Hello, " << first_name << "(age " <<age * 12<<")!\n";
 	keep_window_open();
 }
